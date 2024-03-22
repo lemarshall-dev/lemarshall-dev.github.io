@@ -1,0 +1,73 @@
+.card-test {
+    width: 300px;
+    height: 430px;
+    position: relative;
+    top: 250px;
+    left: 250px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #FFF;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+img {
+    position: relative;
+    width: 300px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+#svg {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    filter: invert(99%) sepia(94%) saturate(1%) hue-rotate(193deg) brightness(150%) contrast(100%);
+}
+
+#svg:hover {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+}
+
+h5 {
+    position: absolute;
+    bottom: 125px;
+    left: 230px;
+}
+
+.content p {
+    position: relative;
+    bottom: 10px;
+}
+
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    color: rgb(126, 121, 121);
+    line-height: 20px;
+}
+
+p span {
+    font-style: italic;
+    font-weight: 700;
+}
+
+footer p span {
+    text-decoration: line-through;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.price {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+}
+
+.total {
+    text-decoration: underline;
+}
